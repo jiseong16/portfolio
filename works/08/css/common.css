@@ -1,0 +1,50 @@
+/* 공통  모든페이지 */
+
+.blind{
+    position: absolute;
+    width: 1px;height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
+
+/* 공용화장실 */
+
+.sp_bg,
+header .logo_area h1 a::before,
+header .logo_area .quick_area .link_start::after,
+header .gnb_area ul li a.mail::before,
+header .gnb_area ul li a.shop::before,
+header .gnb_area ul li a.shoplive::before,
+header .gnb_area ul li a.tv::before,
+header .gnb_area ul li .more::after,
+header .gnb_area .weather_area .weather::after,
+.sc_news .group_issue .issue_area .media::after,
+.sc_news .group_title .title::before,
+.sc_news .group_title .title::after,
+.sc_login .login_link .link_id::before,
+.sc_login .login_link .link_join::before,
+.sc_themepost .group_title .set_area .set::before,
+.sc_themepost .list05 .link::after,
+.btn_more .more::before,
+footer .notice_area .more::after{
+    background-image: url(../images/sp_bg.png);
+    background-size: 457px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+/* 공용화장실 2 */
+
+.sp_bg02,
+.sc_shop .group_title h2 .title::before,
+.sc_shop .group_title h2 .title::after{
+    background-image: url(../images/sp_bg02.png);
+    background-size: 107px;
+    background-repeat: no-repeat;
+}

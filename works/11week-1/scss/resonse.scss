@@ -1,0 +1,55 @@
+// 분기점 상황에따라다름
+
+//  * 보장되는 영역에서 분기점한번 나와야함
+//  * 최소치를 보고 잡아야합니다! 1480px보고 잡는게 아니라  1320px이걸보고잡는다.
+//  * 모바일은 항상 320을 보고 잡아야함
+//  * 가로 스크롤이 생기면 절대안됨 무조건 잡으세여
+//    -위드가 살아있거나
+//    -앱솔의 영역이 튀어가나갔거나
+
+
+//줄이는도중 보장되지못하는 구역이있다면 분기점을 만들어주자 
+@media screen and (max-width: 1620px) {
+
+}
+@media screen and (max-width: 1260px) {
+    header{
+        height: 140px;
+    }
+    header .logo{
+        left: 50%;
+        top: 32px;
+        transform: translate(-50%, 0);
+    }
+    header .gnb{
+        margin-top: 80px;
+        width: 100%;
+    }
+    header .menu_wrap .menu{
+        top: 32px;
+        transform: translateY(0);
+    }
+    header .gnb ul{
+        justify-content: center;
+    }
+
+    .sc_visual{
+        width: 100%;
+        height: calc(100vh - 140px);
+        padding-top: 140px;
+    }
+
+}
+
+// 태블릿분기
+// 1024
+@media screen and (max-width: 1024px) { 
+
+}
+
+
+// 모바일분기 
+// 768
+@media screen and (max-width: 768px) { 
+
+}

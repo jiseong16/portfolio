@@ -1,0 +1,505 @@
+@import 'reset.css';
+@import 'common.css';
+
+
+/* body */
+
+body{
+    font-size: 12px;
+    line-height: 16px;
+    color: #202020;
+    min-width: 1200px;
+}
+
+
+/* header */
+
+header .logo_area{
+    position: relative;
+    width: 1130px;
+    height: 160px;
+    margin: 0 auto;
+}
+header .logo_area h1{
+    position: absolute;
+    top: 50%;
+    left: -9px;
+    margin-top: -32px;
+}
+header .logo_area h1 a{
+    display: block;
+    height: 100%;
+}
+header .logo_area h1 a::before{
+    display: inline-block;
+    width: 222px;
+    height: 52px;
+    background-position: 0 -158px;
+    vertical-align: top;
+    content: '';
+}
+header .logo_area .search{
+    position: absolute;
+    top: 50%;
+    left: 238px;
+    margin-top: -28px;
+    width: 586px;
+    height: 56px;
+    border: 2px solid #19ce60;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+header .logo_area .search .srh_text{
+    width: 474px;
+    height: 52px;
+    padding: 13px 15px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    font-weight: 700;
+    outline: none;
+    border: 0;
+}
+
+header .logo_area .search .srh_btn{
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    bottom: 0;
+    width: 56px;
+    height: 56px;
+    background-color: #19ce60;
+    border-radius: 0;
+    border: 0;
+    cursor: pointer;
+}
+header .logo_area .search .srh_btn .sp_bg{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-position: -420px 0;
+    vertical-align: top;
+}
+
+header .logo_area .quick_area{
+    position: absolute;
+    top: 12px;
+    right: -3px;
+}
+header .logo_area .quick_area a{
+    float: left;
+    
+}
+
+header .logo_area .quick_area .link_start{
+    float: left;
+    font-size: 11px;
+    color: #404040;
+}
+
+header .logo_area .quick_area .link_start::after{
+    display: inline-block;
+    width: 26px;
+    height: 26px;
+    background-position: -308px -345px;
+    vertical-align: top;
+    content: '';
+    margin: -3px 0 0 3px;
+    vertical-align: -11px;
+}
+
+header .logo_area .quick_area .bar{
+    float: left;
+    width: 1px;
+    height: 10px;
+    margin: 3px 7px;
+    background-color: #e4e8eb;
+}
+header .logo_area .quick_area .link_jr .sp_bg{
+    display: inline-block;
+    width: 60px;
+    height: 10px;
+    background-position: -262px -330px;
+    vertical-align: top;
+    margin: 3px;
+}
+header .logo_area .quick_area .link_happybin{
+    margin-left: 6px;
+}
+header .logo_area .quick_area .link_happybin .sp_bg{
+    display: inline-block;
+    width: 34px;
+    height: 11px;
+    background-position: -369px -299px;
+    vertical-align: top;
+    margin: 3px 3px 2px;
+}
+
+header .gnb_area{
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+    border-top: 1px solid #e4e8eb;   
+}
+header .gnb_area .inner{
+    width: 1130px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header .gnb_area .gnb{
+    float: left;
+    overflow: hidden;
+    font-size: 15px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: -.3px;
+    padding: 11px 0 11px 0;
+}
+
+header .gnb_area ul{}
+header .gnb_area ul li{
+    float: left;
+    margin-left: 12px;
+}
+header .gnb_area ul .li_first{
+    margin-left: 0
+}
+header .gnb_area ul li a.on{
+    color: #03c75a;
+}
+header .gnb_area ul li a.mail::before{
+    display: inline-block;
+    content: '';
+    width: 21px;
+    height: 21px;
+    background-position: -420px -73px;
+    vertical-align: top;
+    margin: 3px 9px 0 0;
+}
+header .gnb_area ul li a.shop::before{
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    background-position: -154px -389px;
+    content: '';
+    vertical-align:-4px;
+
+}
+header .gnb_area ul li a.shoplive::before{
+    width: 54px;
+    height: 20px;
+    background-position: -202px -299px;
+    display: inline-block;
+    content: '';
+    vertical-align: -4px;
+}
+header .gnb_area ul li a.tv::before{
+    display: inline-block;
+    content: '';
+    width: 12px;
+    height: 14px;
+    background-position: -444px -49px;
+    vertical-align: top;
+    margin: 6px 2px 0 0;
+}
+header .gnb_area ul .li_last{
+    margin-left: 17px;
+    font-size: 13px;
+    line-height: 30px;
+    color: #202020;
+    text-align: right;
+    font-weight: normal;
+}
+header .gnb_area ul li .more::after{
+    display: inline-block;
+    width: 11px;
+    height: 7px;
+    background-position: -444px -330px;
+    vertical-align: top;
+    content: '';
+    margin-left: 7px;
+    vertical-align: 2px;
+}
+
+
+
+header .gnb_area .weather_area{
+    float: right;
+    color: #505050;
+    max-width: 100%;
+    padding: 17px 0 16px;
+    line-height: 18px;
+}
+header .gnb_area .weather_area .weather::after{
+    display: inline-block;
+    content: '';
+    height: 18px;
+    width: 18px;
+    background-position: -420px -206px;     
+    vertical-align: top;
+    vertical-align: -4px;
+    margin-left: 7px;
+}
+header .gnb_area .weather_area .condition{
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 7px;
+}
+
+header .gnb_area .weather_area .bar{
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    background-color: #e4e8eb;
+    margin: 0 10px;
+    vertical-align: -1px;
+    
+}
+header .gnb_area .weather_area .location{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 9px;
+    color: grey;
+    text-align: right;
+
+}
+
+/* main */
+
+main{
+    width: 1130px;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
+main::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+/* footer */
+
+footer{
+    background-color: #fafbfc;
+    border-top: 1px solid #e4e8eb;
+}
+footer .inner{
+    width: 1130px;
+    padding: 0 0 92px;
+    margin: 0 auto;
+}
+
+footer .banner_area{
+    padding: 24px 0;
+    border-bottom: 1px solid #e4e8eb;
+}
+
+footer .banner_area ul{
+    overflow: hidden;
+}
+footer .banner_area ul li{
+    float: left;
+    width: 350px;
+    height: 86px;
+    margin-left: 40px;
+}
+footer .banner_area ul .list01{
+    margin-left: 0;
+}
+footer .banner_area ul li a{overflow: hidden;display: block;}
+footer .banner_area ul li .img_wrap{
+    float: left;
+    width: 160px;
+    height: 86px;
+}
+footer .banner_area ul li .img_wrap img{width: 100%;}
+
+footer .banner_area ul li .text_wrap{
+    overflow: hidden;
+    height: 86px;
+    padding: 2px 2px 0 16px;
+    font-size: 12px;
+    line-height: 1.25;
+    box-sizing: border-box;
+    text-align: left;
+}
+footer .banner_area ul li .text_wrap em{
+    display: block;
+    overflow: hidden;
+    font-weight: 700;
+    letter-spacing: -0.25px;
+    color: #58c464;
+    white-space: nowrap;
+}
+
+footer .banner_area ul li .text_wrap strong{
+    display: block;
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.26px;
+    color: #242424;
+    white-space: nowrap;
+}
+footer .banner_area ul li .text_wrap p{
+overflow: hidden;
+line-height: 18px;
+letter-spacing: -0.25px;
+color: #424242;
+white-space: nowrap;
+margin-top: 8px;
+}
+
+footer .notice_area{
+    overflow: hidden;
+    padding: 16px 0 15px;
+    border-bottom: 1px solid #e4e8eb;
+}
+
+footer .notice_area .notice_wrap{
+    float: left;
+}
+footer .notice_area .notice_wrap h3{
+    margin-right: 13px;
+    color: #202020;
+    font-weight: bold;
+    float: left;
+}
+footer .notice_area .notice_wrap .notice{
+}
+footer .notice_area .notice_wrap .notice_text{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float: left;
+    max-width: 600px;
+    color: #777;
+}
+footer .notice_area .more{
+    float: right;
+    font-weight: 700;
+    color: #202020;
+}
+footer .notice_area .more::after{
+    display: inline-block;
+    width: 8px;
+    height: 12px;
+    background-position: -444px -268px;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    content: '';
+    margin-left: 10px;
+    vertical-align: -2px;
+}
+
+
+footer .link_area{
+    overflow: hidden;
+    border-bottom: 1px solid #e4e8eb;
+}
+footer .link_area ul{
+    float: left;
+    width: 780px;
+    padding: 20px 0;
+}
+footer .link_area ul li{
+    overflow: hidden;
+}
+footer .link_area ul .list02{
+    margin-top: 9px;
+}
+footer .link_area ul .list03{
+    margin-top: 9px;
+}
+footer .link_area ul li .title{
+    float: left;
+    width: 87px;
+    font-weight: bold;
+}
+footer .link_area ul li a{
+    float: left;
+    color: #777;
+}
+footer .link_area ul li a.on::before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    background-color: #e4e8eb;
+    vertical-align: -1px;
+    margin: 0 8px;
+}   
+
+footer .link_area .mark_area{
+    overflow: hidden;
+    float: right;
+    width: 350px;
+    padding: 28px 0;
+}
+footer .link_area .mark_area .mark_wrap{
+    overflow: hidden;
+    float: left;
+    max-width: 150px;
+}
+footer .link_area .mark_area .mark_wrap .link{
+    overflow: hidden;
+    float: left;
+}
+footer .link_area .mark_area .mark_wrap .link strong{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    padding-top: 2px;
+    font-weight: bold;
+}
+footer .link_area .mark_area .mark_wrap .link a{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    padding-top: 2px;
+    color: gray;
+}
+
+footer .link_area .mark_area .mark_wrap .mark{
+    float: left;
+    margin-left: 12px;
+}
+footer .link_area .mark_area .mark_wrap.right{
+    margin-left: 50px;
+}
+footer .link_area .mark_area .mark_wrap .mark img{
+    width: 48px;
+    height: 48px;
+}
+
+footer .policy_area{
+    padding-top: 25px;
+}
+footer .policy_area ul{overflow: hidden;}
+footer .policy_area ul li{
+    float: left;
+    color: #777;
+}
+footer .policy_area ul li .active{
+    font-weight: bold;
+}
+footer .policy_area ul li .copy{
+    font-weight: bold;
+    color: #202020;
+    margin-left: 13px;
+}
+footer .policy_area ul li .on::after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    margin: 0 8px;
+    background-color: #e4e8eb;
+    vertical-align: -1px;
+}

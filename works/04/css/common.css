@@ -1,0 +1,74 @@
+.blind{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+/* .txt_wrap > a {
+    display: block;
+} */
+
+.txt_wrap .review{
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 600;
+    color: #8e1f29;
+}
+.txt_wrap .product{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 14px;
+    line-height: 20px;
+    max-height: 40px;
+    font-weight: 400;
+    letter-spacing: -0.05em;
+    display: block;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.txt_wrap .price{
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    vertical-align: top;
+    overflow: hidden;
+}
+.txt_wrap .price .sale_rate{
+    float: left;
+    color: #8E1F29;
+    font-weight: bold;
+    margin-right: 5px;
+}
+.txt_wrap .price .sale_price{
+    float: left;
+}
+.txt_wrap .price .fixed_price{
+    float: left;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #8d8d8d;
+    margin-left: 5px;
+    text-decoration: line-through;
+}
+.txt_wrap .color{
+    display: block;
+    font-size: 13px;
+    line-height: 11px;
+    letter-spacing: -0.05em;
+    color: #999;
+    font-weight: 500;
+    padding-top: 9px;
+}
+.txt_wrap .number{
+    margin-right: 5px;
+}

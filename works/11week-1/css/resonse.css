@@ -1,0 +1,6 @@
+@media screen and (max-width: 1260px) { header { height: 140px; }
+  header .logo { left: 50%; top: 32px; -webkit-transform: translate(-50%, 0); transform: translate(-50%, 0); }
+  header .gnb { margin-top: 80px; width: 100%; }
+  header .menu_wrap .menu { top: 32px; -webkit-transform: translateY(0); transform: translateY(0); }
+  header .gnb ul { -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+  .sc_visual { width: 100%; height: calc(100vh - 140px); padding-top: 140px; } }

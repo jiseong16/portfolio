@@ -1,0 +1,177 @@
+.img_event { position: relative; }
+
+.img_event::after { content: ''; position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-color: #f0e4ed; -webkit-transition: 1s; transition: 1s; }
+
+.img_event.on::after { height: 0; }
+
+.title_wrap h2 { font-size: 46px; font-weight: 500; font-family: 'roslindaletext'; }
+
+.title_wrap p { padding-top: 15px; font-size: 27px; line-height: 1.4; }
+
+.title_wrap p span { display: block; }
+
+.title_wrap .more_btn { padding: 5px 10px; margin-top: 22px; border-radius: 100px; font-size: 20px; display: inline-block; -webkit-box-sizing: border-box; box-sizing: border-box; border: 3px solid #000; }
+
+.sc_visual { height: 100vh; position: relative; }
+
+.sc_visual .book { display: block; position: absolute; top: 50%; left: 3%; -webkit-transform: translateY(-50%); transform: translateY(-50%); width: 364px; height: 532px; }
+
+.sc_visual .book img { width: 100%; }
+
+.sc_visual .anni_wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; height: 100%; width: 100%; }
+
+.sc_visual .anni_wrap .line { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
+
+.sc_visual .anni_wrap .line .wrap { width: auto; padding: 10px 5px; -webkit-box-sizing: border-box; box-sizing: border-box; height: 13vh; }
+
+.sc_visual .anni_wrap .line .wrap img { width: 100%; height: 100%; }
+
+.sc_creative { height: 100vh; margin-bottom: 190px; position: relative; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; overflow: hidden; }
+
+.sc_creative .title_wrap { position: absolute; left: 60px; bottom: 5%; }
+
+.sc_creative strong { display: block; }
+
+.sc_creative strong span { width: 200%; display: block; font-size: 11vw; font-weight: 600; line-height: 1; }
+
+.sc_creative strong span.line01 { -webkit-transform: translateX(33.33%); transform: translateX(33.33%); }
+
+.sc_creative strong span.line02 { -webkit-transform: translateX(15.33%); transform: translateX(15.33%); }
+
+.sc_creative strong span.line03 { -webkit-transform: translateX(5.33%); transform: translateX(5.33%); }
+
+.sc_creative .img_wrap { position: absolute; top: 100%; left: 50%; -webkit-transform: translate(-50%); transform: translate(-50%); }
+
+.sc_creative .img_wrap .img_01 { width: 435px; }
+
+.sc_creative .img_wrap .img_01 img { width: 100%; }
+
+.sc_creative .img_wrap .img_01 .copy { display: block; margin-top: 10px; font-size: 10px; text-align: right; }
+
+.sc_creative .img_wrap .img_02 { width: 540px; -webkit-transform: translate(60%, 30%); transform: translate(60%, 30%); }
+
+.sc_creative .img_wrap .img_02 img { width: 100%; }
+
+.sc_nature { overflow: hidden; }
+
+.sc_nature .wrap { display: -webkit-box; display: -ms-flexbox; display: flex; width: 580vw; }
+
+.sc_nature .wrap > div { -ms-flex-negative: 0; flex-shrink: 0; }
+
+.sc_nature .wrap .nature01 { position: relative; width: 100vw; height: 100vh; }
+
+.sc_nature .wrap .nature01 .title_wrap { position: absolute; top: 50%; left: 3%; -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+
+.sc_nature .wrap .nature01 .title_wrap h2 { font-size: 46px; color: #fff; font-weight: 500; }
+
+.sc_nature .wrap .nature01 .title_wrap .more_btn { background-color: #fff; color: #000; border: #fff; margin-top: 37px; }
+
+.sc_nature .wrap .nature01 strong { position: absolute; bottom: 0; left: 3%; color: #fff; }
+
+.sc_nature .wrap .nature01 strong .txt01 { font-size: 174px; font-family: 'roslindaletext'; }
+
+.sc_nature .wrap .nature01 strong .txt02 { font-size: 174px; font-family: 'roslindaletext'; }
+
+.sc_nature .wrap .nature01 strong .txt03 { font-size: 180px; font-weight: 600; }
+
+.sc_nature .wrap .nature01 strong .txt04 { font-size: 180px; font-weight: 600; }
+
+.sc_nature .wrap .nature02 { width: 142vw; height: 100vh; background-image: url(../image/content/nature02.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; position: relative; }
+
+.sc_nature .wrap .nature02 .copy { position: absolute; right: 1%; bottom: 2%; font-size: 10px; color: #fff; opacity: .6; }
+
+.sc_nature .wrap .nature03 { width: 100vw; height: 100vh; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; position: relative; text-align: center; color: #fff; background-color: #000; }
+
+.sc_nature .wrap .nature03 strong { font-size: 42px; line-height: 1.4; -webkit-font-smoothing: antialiased; -webkit-transform: translateX(-23%); transform: translateX(-23%); }
+
+.sc_nature .wrap .nature03 strong span { display: block; }
+
+.sc_nature .wrap .nature03 em { position: absolute; bottom: 5%; font-family: 'roslindaletext'; font-size: 14px; -webkit-font-smoothing: antialiased; }
+
+.sc_nature .wrap .nature03 .nature_object { position: absolute; top: 0; right: -25%; z-index: 1; width: auto; height: 100%; }
+
+.sc_nature .wrap .nature03 .nature_object img { width: 100%; height: 100%; }
+
+.sc_nature .wrap .nature04 { width: 138vw; height: 100vh; background-color: #000; position: relative; }
+
+.sc_nature .wrap .nature04 strong { position: absolute; right: 6%; bottom: 0; color: #fff; z-index: 5; }
+
+.sc_nature .wrap .nature04 strong span { display: inline-block; line-height: 1; }
+
+.sc_nature .wrap .nature04 strong .txt01 { font-size: 158px; font-family: 'roslindaletext'; }
+
+.sc_nature .wrap .nature04 strong .txt02 { font-size: 158px; font-family: 'roslindaletext'; }
+
+.sc_nature .wrap .nature04 strong .txt03 { font-size: 165px; }
+
+.sc_nature .wrap .nature04 strong .txt04 { font-size: 165px; }
+
+.sc_nature .wrap .nature04 figure { width: 456px; position: absolute; right: 28%; top: 0; }
+
+.sc_nature .wrap .nature04 figure::after { content: ''; position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-color: #f0e4ed; -webkit-transition: 1s; transition: 1s; }
+
+.sc_nature .wrap .nature04 figure.on::after { width: 0; }
+
+.sc_nature .wrap .nature04 figure img { width: 100%; }
+
+.sc_nature .wrap .nature04 figure p { color: #fff; position: absolute; top: 0; left: -3%; -webkit-transform-origin: 0 0; transform-origin: 0 0; -webkit-transform: rotate(-90deg) translate(-100%, -100%); transform: rotate(-90deg) translate(-100%, -100%); font-size: 10px; -webkit-font-smoothing: antialiased; }
+
+.sc_nature .wrap .nature05 { height: 100vh; width: 100vw; background-image: url(../image/content/nature05.jpg); background-repeat: no-repeat; background-position: center; background-size: cover; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; position: relative; color: #fff; text-align: center; }
+
+.sc_nature .wrap .nature05 strong { font-size: 30px; line-height: 1.5; }
+
+.sc_nature .wrap .nature05 strong span { display: block; }
+
+.sc_nature .wrap .nature05 em { display: block; position: absolute; bottom: 5%; font-size: 34px; font-family: 'roslindaletext'; }
+
+.sc_inspiration { padding-top: 165px; }
+
+.sc_inspiration .img_wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; margin-top: -50px; }
+
+.sc_inspiration .img_wrap .img_event { -webkit-box-flex: 1; -ms-flex: 1; flex: 1; }
+
+.sc_inspiration .img_wrap .img_event img { width: 100%; }
+
+.sc_inspiration .img_wrap .img_event em { margin-top: 10px; display: block; font-size: 14px; font-family: 'roslindaletext'; }
+
+.sc_inspiration .img_wrap .img01 { margin-top: 250px; }
+
+.sc_inspiration .img_wrap .img02 { margin: 125px 15px 0; }
+
+.sc_inspiration .img_wrap .img02 .wrap { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.sc_inspiration .img_wrap .img02 .wrap p { margin: 10px 20px 0 0; font-size: 10px; font-family: 'roslindaletext'; }
+
+.sc_tech { padding-top: 180px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.sc_tech > div { width: 50%; }
+
+.sc_tech .txt_area { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; }
+
+.sc_tech .txt_area .info_wrap { display: -webkit-box; display: -ms-flexbox; display: flex; }
+
+.sc_tech .txt_area .info_wrap .info01 { margin-right: 50px; }
+
+.sc_tech .txt_area .info_wrap h3 { font-size: 20px; }
+
+.sc_tech .txt_area .info_wrap p { font-size: 18px; margin-top: 20px; line-height: 1.6; }
+
+.sc_tech .txt_area .info_wrap p span { display: block; -webkit-font-smoothing: antialiased; }
+
+.sc_tech .img_area .img_event img { width: 100%; }
+
+.sc_explore { position: relative; margin: 315px 0 80px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.sc_explore h2 { position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); z-index: 1; }
+
+.sc_explore h2 a { display: -webkit-box; display: -ms-flexbox; display: flex; position: relative; }
+
+.sc_explore h2 a::before { content: ''; position: absolute; bottom: 15px; left: 0; width: 100%; height: 5px; background-color: #000; }
+
+.sc_explore h2 a .title01 { margin-right: 10px; font-size: 84px; font-family: 'roslindaletext'; }
+
+.sc_explore h2 a .title02 { font-size: 90px; font-weight: 600; }
+
+.sc_explore figure { width: 338px; height: 465px; }
+
+.sc_explore figure img { width: 100%; -o-object-fit: cover; object-fit: cover; }
