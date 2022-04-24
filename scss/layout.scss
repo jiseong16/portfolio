@@ -22,9 +22,17 @@
 body{
     font-size: 16px;
     line-height: 1.2;
-    color: #fff;
+    color: #000;
     font-family: 'Greyst','Gilroy',serif;
 }
+
+
+.inner{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+// loading_page
 
 .loading_page{
     position: fixed;
@@ -82,7 +90,6 @@ body{
     }
     .email{
         display: inline-block;
-        color: #000;
         font-size: 20px;
         border: 1px solid #000;
         padding: 5px 10px;
@@ -92,143 +99,16 @@ body{
     }
         
 }
-img{
-    width: 100%;
-}
-
-.sc_intro{
-    background-color: #f0f0f0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    h2{
-        font-size: 120px;
-        color: #000;
-    }
-    .scroll_bar{
-        width: 1px;
-        height: 200px;
-        background-color: #000;
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-    }
-}
-.sc_project{    
-    background-color: #000;
-    z-index: 4;
-    color: #fff;
-    box-sizing: border-box;
-    padding: 500px 100px 100px;
-    // @include pc{
-
-    // }
-    h2{
-        color: #ffa600;
-        font-size: 20px;
-        letter-spacing: 6px;
-        margin-bottom: 200px;
-    }
-    ul{
-        font-family: 'Gilroy';
-        &::after{
-            content: '';
-            display: block;
-            clear: both;
-        }
-        li{
-            width: 750px;
-            float: left;
-            margin-bottom: 300px;
-            &:nth-child(2n){
-                float: right;
-            }
-            .num{
-                display: block;
-                margin-bottom: 10px;
-                font-size: 25px;
-            }
-            h3{
-                font-size: 42px;
-                margin-bottom: 20px;
-            }
-            .img_wrap{
-                display: block;
-                width: 100%;
-                height: 450px;
-                margin-bottom: 20px;
-                &:hover .badge{
-                    opacity: 1;
-                    transform: translate(-50%, -50%);
-                }
-                figure{
-                    height: 100%;
-                    position: relative;
-                    img{
-                        width: 100%;
-                        height: 100%;
-                        transition: ease 0.5s;
-                        object-fit: cover;
-                        &:hover{
-                            filter: blur(3px);
-                            opacity: 0.7;
-                        }
-                    }
-                    .badge{
-                        font-family: 'Greyst';
-                        font-size: 26px;
-                        position: absolute;
-                        top: 50%;
-                        left: 50%;
-                        transform: translate(-50%, calc(-50% + 30px));
-                        opacity: 0;
-                        transition: opacity 0.4s, transform 0.4s;
-                    }
-                }
-            }
-            .desc{
-                text-align: center; 
-                margin-bottom: 20px;
-                padding: 0 100px;
-                line-height: 1.4; 
-                word-break: keep-all;     
-            }
-            .links{
-                display: flex;
-                justify-content: center;
-                margin-bottom: 20px;
-                a{
-                    width: 25%;
-                    padding: 15px 0;
-                    border: 1px solid rgba(255, 255, 255, 0.2);
-                    text-align: center;
-                    box-sizing: border-box;
-                    color: #fff;
-                    transition: background-color 0.5s, color 0.5s;
-                    &:hover{
-                        background-color: rgba(255, 255, 255, 0.9);
-                        color: #000;
-                    }
-                }
-            }
-            .icons{
-                display: flex;
-                justify-content: center;
-                text-align: center;
-                span{
-                    margin-right: 15px;
-                    &:last-child{margin-right: 0;}
-                }
-            }
-
-        }
-    }
-    
-}
-
 
 
 //footer
-
+footer{
+    background-color: #000;
+    padding: 50px 0;
+}
+.copyright{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Gilroy';
+}
 
