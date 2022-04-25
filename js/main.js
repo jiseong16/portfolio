@@ -81,7 +81,7 @@ $(function(){
 
                 html += '<li><span class="num">' + num + '</span>';
                 html += '<h3>' + works.name + '</h3>';
-                html += '<a href="" class="img_wrap"><figure><img src="' + works.imgSrc + '" alt=""><figcaption class="badge">'+ works.badge + '</figcaption></figure></a>';
+                html += '<a href="' + works.linkSrc + '" class="img_wrap"><figure><img src="' + works.imgSrc + '" alt=""><figcaption class="badge">'+ works.badge + '</figcaption></figure></a>';
                 html += '<p class="desc">' + works.desc + '</p>';
                 html += '<div class="links"><a href="' + works.linkSrc + '" class="link_works">프로젝트 바로가기</a><a href="' + works.notionSrc + '" class="link_notion">코드리뷰</a></div>';
                 html += '<div class="icons">';
