@@ -70,15 +70,19 @@ $(function () {
     //마우스 올릴때 내릴때 이벤트 
     $("body").on('mousewheel', function (e) {
         var wheel = e.originalEvent.wheelDelta;
-
-        //스크롤값을 가져온다.
+        curr = $(window).scrollTop();
         if (wheel > 0) {
             //스크롤 올릴때(양수일때)
-            $('.fix_top').addClass('on');
+            if(curr < 1){
+                $('.fix_top').removeClass('on');
+            }else{
+                $('.fix_top').addClass('on');
+            } 
         } else {
             //스크롤 내릴때(음수일때)
             $('.fix_top').removeClass('on');
         }
+
 
     });
 
