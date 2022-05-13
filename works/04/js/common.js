@@ -74,10 +74,10 @@ $(function () {
         //스크롤값을 가져온다.
         if (wheel > 0) {
             //스크롤 올릴때(양수일때)
-            $('.fix_top').removeClass('hide');
+            $('.fix_top').addClass('on');
         } else {
             //스크롤 내릴때(음수일때)
-            $('.fix_top').addClass('hide');
+            $('.fix_top').removeClass('on');
         }
 
     });
