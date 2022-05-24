@@ -20,6 +20,27 @@ body{
     letter-spacing: -0.05em;
     min-width: 1200px;
 }
+.skipnavi{
+    position: absolute;
+    left: 0;
+    top: -56px;
+    width: 100%;
+    z-index: 10;
+    font-size: 14px;
+}
+.skipnavi li a:active,
+.skipnavi li a:focus {
+    position: absolute;
+    left: 0;
+    top: 56px;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    background-color: #dddddd;
+}
 .inner{
     width: 1172px;
     margin: 0 auto;

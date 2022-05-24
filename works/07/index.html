@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>인천시청</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <ul class="skipnavi">
+        <li><a href="#gnb">주메뉴 바로가기</a></li>
+        <li><a href="#container">본문 바로가기</a></li>
+    </ul> 
     <div class="dimm"></div>
     <header>
         <div class="corona_banner">
@@ -152,7 +156,7 @@
         </div>
         <div class="gnb_area">
             <div class="inner">
-                <nav class="gnb">
+                <nav class="gnb" id="gnb">
                     <ul>
                         <li><a href="">인천소식</a></li>
                         <li><a href="">소통참여</a></li>
@@ -524,7 +528,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main id="container">
         <div class="visual_wrap">
             <div class="inner">
                 <div class="search_slogan_wrap">

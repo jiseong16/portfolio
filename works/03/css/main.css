@@ -62,9 +62,9 @@ main { padding-top: 90px; }
 
 .sc_visual .controls .fraction { font-size: 11px; color: #fff; margin-bottom: 18px; }
 
-.sc_visual .controls .guage { height: 1px; background: #ffffff5c; }
+.sc_visual .controls .gauge { height: 1px; background: #ffffff5c; }
 
-.sc_visual .controls .guage span { width: 0%; height: 100%; background-color: #fff; display: block; }
+.sc_visual .controls .gauge span { width: 0%; height: 100%; background-color: #fff; display: block; }
 
 .inner_wrap { background-color: #A9A9A9; }
 
@@ -275,7 +275,7 @@ main { padding-top: 90px; }
   .sc_visual .wrap .sub_slide { display: none; }
   .sc_visual .controls { width: calc(90% - 39px); height: auto; left: 12%; bottom: 40%; }
   .sc_visual .controls .fraction { font-size: 10px; width: auto; position: absolute; margin-bottom: 0; bottom: -5px; left: -36px; }
-  .sc_visual .controls .guage { display: block; height: 1px; }
+  .sc_visual .controls .gauge { display: block; height: 1px; }
   .inner_wrap > .inner { padding: 0 5%; }
   .inner_wrap > .inner .sc_product { padding-top: 20px; }
   .inner_wrap > .inner .sc_product .title_wrap { padding: 58px 5% 50px; border: 1px solid #ffffff80; -webkit-box-sizing: border-box; box-sizing: border-box; text-align: center; }
