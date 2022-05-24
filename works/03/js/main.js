@@ -55,18 +55,18 @@ $(function(){
     // })
 
 
-    function guage(){
-        $('.guage span').css({width:0})
-        $('.guage span').stop().animate({width:'100%'},5000,function(){
+    function gauge(){
+        $('.gauge span').css({width:0})
+        $('.gauge span').stop().animate({width:'100%'},5000,function(){
 
             main_slide.slideNext();
         })
     }
-    guage();
+    gauge();
 
     main_slide.on('slideChange',function(){
       // alert(this.realIndex);
-      guage();
+      gauge();
       txt_slide.slideTo(this.realIndex);
       sub_slide.slideTo(this.realIndex);
       // sub_slide.slideNext();
