@@ -58,7 +58,6 @@ $(function(){
     function gauge(){
         $('.gauge span').css({width:0})
         $('.gauge span').stop().animate({width:'100%'},5000,function(){
-
             main_slide.slideNext();
         })
     }
