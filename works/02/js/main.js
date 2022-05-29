@@ -298,12 +298,18 @@ $(function(){
                 duration:0.5,
             },
         })
-    
+
         titMotion.addLabel('label1')
         .set(item,{opacity:0,yPercent:30},'label1')
         .to(item,{opacity:1,yPercent:0},'label1')
         .set('.title_wrap span',{opacity:0,yPercent:50},'label1')
-        .to('.title_wrap span',{opacity:1,yPercent:0,stagger:0.1,delay:0.1},'label1-=0.4')
+        .to('.title_wrap span:nth-child(1)',{opacity:1,yPercent:0},'label1')
+        .set('.title_wrap span',{opacity:0,yPercent:50},'label1')
+        .to('.title_wrap span:nth-child(2)',{opacity:1,yPercent:0},'label1+=0.1')
+        .set('.title_wrap span',{opacity:0,yPercent:50},'label1')
+        .to('.title_wrap span:nth-child(3)',{opacity:1,yPercent:0},'label1+=0.2')
+
+
         // .fromTo('.title_wrap p span',{
         //     opacity:0,
         //     yPercent:100
