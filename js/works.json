@@ -2,7 +2,7 @@
     {
         "name":"AirPods Max - Apple",
         "linkSrc":"./works/01/",
-        "notionSrc":"",
+        "notionSrc":"https://azure-glazer-f08.notion.site/Airpods-Max-apple-a5eb0d1e0f59490188262cfd2002a24c",
         "imgSrc":"./image/content/airpods-max.jpg",
         "badge":"PC",
         "desc":"애플 공식 사이트와 GDWEB, Awwwards 등 레퍼런스 사이트를 참고하여 만든 애플 PC 버전 웹 사이트입니다",
@@ -12,7 +12,7 @@
     {
         "name":"The Hyundai Seoul",
         "linkSrc":"./works/02/",
-        "notionSrc":"~~~~~~~~~~",
+        "notionSrc":"https://azure-glazer-f08.notion.site/The-Hyundai-Seoul-7340e3846f694414983cbbb3015b6c15",
         "imgSrc":"./image/content/the-hyundai-seoul.jpg",
         "badge":"PC",
         "desc":"더현대 서울 공식 사이트를 클론 코딩하여 만든 PC 버전 웹 사이트입니다.",
@@ -22,7 +22,7 @@
     {
         "name":"NONFICTION",
         "linkSrc":"./works/03/",
-        "notionSrc":"~~~~~~~~~~",
+        "notionSrc":"https://azure-glazer-f08.notion.site/NONFICTION-16f182b13b10470cb2542ab136702046",
         "imgSrc":"./image/content/nonfiction.jpg",
         "badge":"Responsive",
         "desc":"논픽션 공식 사이트와 GDWEB, Awwwards 등 레퍼런스 사이트를 참고하여 만든 논픽션 반응형 버전 웹 사이트입니다",
@@ -32,7 +32,7 @@
     {
         "name":"andar",
         "linkSrc":"./works/04/",
-        "notionSrc":"~~~~~~~~~~",
+        "notionSrc":"https://azure-glazer-f08.notion.site/andar-c05f55e881a94da1ba62f4f1be1e77b6",
         "imgSrc":"./image/content/andar.jpg",
         "badge":"Mobile",
         "desc":"안다르 공식 사이트를 클론 코딩하여 만든 모바일 버전 웹 사이트입니다",
@@ -42,7 +42,7 @@
     {
         "name":"YOUNGLIM",
         "linkSrc":"./works/05/",
-        "notionSrc":"~~~~~~~~~~",
+        "notionSrc":"https://azure-glazer-f08.notion.site/604c9953c54749d180460a795f5d1dee",
         "imgSrc":"./image/content/younglim.jpg",
         "badge":"PC", 
         "desc":"영림 공식 사이트를 클론 코딩하여 만든 PC버전 웹 사이트입니다.",
@@ -51,7 +51,7 @@
     {
         "name":"서울시청",
         "linkSrc":"./works/06/",
-        "notionSrc":"~~~~~~~~~~",
+        "notionSrc":"https://azure-glazer-f08.notion.site/cb26bc62106946d992aac9dbb4291a0b",
         "imgSrc":"./image/content/download.jpg",
         "badge":"PC",
         "desc":"웹 접근성을 준수하여 모든 콘텐츠를 탭 이동으로 가능하게 만든 서울시청 PC버전 웹 사이트입니다.",
@@ -60,7 +60,7 @@
     {
         "name":"인천시청",
         "linkSrc":"./works/07/",
-        "notionSrc":"~~~~~~~~~~",
+        "notionSrc":"~",
         "imgSrc":"./image/content/incheon.png",
         "badge":"PC",
         "desc":"웹 접근성을 준수하여 모든 콘텐츠를 탭 이동으로 가능하게 만든 인천시청 PC버전 웹 사이트입니다.",
@@ -70,7 +70,7 @@
     {
         "name":"NAVER",
         "linkSrc":"./works/08/",
-        "notionSrc":"~~~~~~~~~~",
+        "notionSrc":"https://azure-glazer-f08.notion.site/NAVER-853c6fd5107c496a84473977e92d0cc2",
         "imgSrc":"./image/content/naver.png",
         "badge":"PC",
         "desc":"네이버 공식 사이트를 클론 코딩하여 만든 PC버전 웹 사이트입니다.",
