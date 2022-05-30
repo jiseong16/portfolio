@@ -141,7 +141,7 @@ $(function(){
         trigger:".nature01",
         start:"top top",
         onEnter:()=>{
-            txtMotion01.restart();
+            txtMotion01.play();
         },
     })
 
